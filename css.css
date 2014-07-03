@@ -2,6 +2,9 @@
 	margin: 0px;
 	padding: 0px;
 }
+.active{
+	color: #FFFFFF;
+}
 #container{
 	position: fixed;
 	position: absolute;
@@ -16,4 +19,49 @@
 	width: 1000px;
 	margin: 0px auto;
 	background-color: #000000;
+}
+#title{
+	width: 1000px;
+	height: 120px;
+}
+#title img{
+	vertical-align: middle;
+}
+#title p{
+	position: absolute;
+	right: 0px;
+	margin: 20px;
+	color: #FFFFFF;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: lighter;
+}
+#navbar{
+	width: 1000px;
+	display: inline-block;
+	background: linear-gradient(#252525, #464646, #252525);
+	margin-bottom: 2px;
+}
+#navbar ul{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+#navbar li{
+	display: inline-block;
+	border-right: 1px solid #252525;
+	padding: 5px 20px;
+}
+#navbar li:last-child{
+	border-right: none;
+}
+#navbar a{
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: .75em;
+	font-weight: lighter;
+	text-decoration: none;
+	color: #a6a7a5;
+}
+#jumbo{}
+#jumbo img{
+	border-bottom: 2px solid #252525;
 }
