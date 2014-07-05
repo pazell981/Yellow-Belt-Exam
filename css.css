@@ -90,8 +90,9 @@ img{
 #title p{
 	display: inline-block;
 	position: absolute;
+	top: 0px;
 	right: 0px;
-	margin: 40px 20px;
+	margin: 50px 20px;
 	color: #FFFFFF;
 	font-family: Tahoma, Geneva, sans-serif;
 	font-weight: lighter;
